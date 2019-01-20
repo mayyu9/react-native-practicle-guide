@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, StyleSheet, TouchableWithoutFeedback, TouchableOpacity, Image} from 'react-native';
 
 const ListItem = (props) => {
-  console.log(JSON.stringify(props));
+  console.log('list item:',JSON.stringify(props));
   return (<TouchableOpacity onPress={props.onItemPressed}>
   <View style={styles.listItem}>
     <Image source={props.placeImage} style={styles.placeImage}/>

@@ -3,6 +3,7 @@ import {View, StyleSheet, ScrollView, FlatList} from 'react-native';
 import ListItem from '../ListItem/ListItem';
 
 const PlaceList = (props) => {
+  console.log('placeList: ');
     return(
       <FlatList
         style={styles.listContainer}
